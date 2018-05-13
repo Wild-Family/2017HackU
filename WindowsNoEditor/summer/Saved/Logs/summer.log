@@ -1,0 +1,373 @@
+﻿Log file open, 08/21/17 15:10:22
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: summer
+LogInit: Display: Project file not found: ../../../summer/summer.uproject
+LogInit: Display: 	Attempting to find via project info helper.
+LogUProjectInfo: Found projects:
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(224599006) SRandInit(224599006).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.152119
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:07:53
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: E:/summer/WindowsNoEditor/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: true
+LogInit: Object subsystem initialized
+[2017.08.21-06.10.22:791][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2017.08.21-06.10.22:791][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2017.08.21-06.10.22:797][  0]LogInit: Computer: DESKTOP-L8K1I79
+[2017.08.21-06.10.22:797][  0]LogInit: User: right
+[2017.08.21-06.10.22:797][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.21-06.10.22:797][  0]LogInit: High frequency timer resolution =3.515614 MHz
+[2017.08.21-06.10.22:797][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.21-06.10.22:797][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2017.08.21-06.10.22:797][  0]LogMemory: Process Physical Memory: 98.25 MB used, 98.25 MB peak
+[2017.08.21-06.10.22:797][  0]LogMemory: Process Virtual Memory: 111.61 MB used, 111.61 MB peak
+[2017.08.21-06.10.22:797][  0]LogMemory: Physical Memory: 6729.59 MB used,  9569.09 MB free, 16298.68 MB total
+[2017.08.21-06.10.22:797][  0]LogMemory: Virtual Memory: 341.72 MB used,  9569.09 MB free, 134217728.00 MB total
+[2017.08.21-06.10.22:889][  0]LogInit: Using OS detected language (ja-JP).
+[2017.08.21-06.10.22:889][  0]LogInit: Using OS detected locale (ja-JP).
+[2017.08.21-06.10.22:889][  0]LogTextLocalizationManager: No localization for 'ja-JP' exists, so 'en' will be used for the language.
+[2017.08.21-06.10.22:889][  0]LogTextLocalizationManager: No localization for 'ja-JP' exists, so 'en' will be used for the locale.
+[2017.08.21-06.10.22:947][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.21-06.10.23:528][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.21-06.10.23:528][  0]LogD3D11RHI:       8085/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.21-06.10.23:532][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.21-06.10.23:532][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.21-06.10.23:532][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.21-06.10.23:538][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.21-06.10.23:539][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.21-06.10.23:539][  0]LogWindows: EnumDisplayDevices:
+[2017.08.21-06.10.23:539][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.21-06.10.23:539][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.21-06.10.23:539][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.21-06.10.23:539][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.21-06.10.23:539][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.21-06.10.23:539][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.21-06.10.23:539][  0]LogD3D11RHI:   Driver Version: 385.28 (internal:22.21.13.8528, unified:385.28)
+[2017.08.21-06.10.23:539][  0]LogD3D11RHI:      Driver Date: 8-9-2017
+[2017.08.21-06.10.23:539][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.21-06.10.24:060][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.21-06.10.24:100][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.21-06.10.24:124][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.21-06.10.24:124][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.21-06.10.24:127][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.21-06.10.24:127][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.21-06.10.24:190][  0]LogAssetRegistry: FAssetRegistry took 0.0125 seconds to start up
+[2017.08.21-06.10.24:295][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.002219 seconds
+[2017.08.21-06.10.24:295][  0]LogPakFile: New pak file ../../../summer/Content/Paks/summer-WindowsNoEditor.pak added to pak precacher.
+[2017.08.21-06.10.24:297][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2017.08.21-06.10.24:303][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.08.21-06.10.24:343][  0]LogNetVersion: summer , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2807056679)
+[2017.08.21-06.10.24:405][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.21-06.10.24:418][  0]LogMoviePlayer: Initializing movie player
+[2017.08.21-06.10.24:550][  0]LogOcInput: OculusInput pre-init called
+[2017.08.21-06.10.24:550][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.21-06.10.24:559][  0]LogUObjectArray: 30841 objects as part of root set at end of initial load.
+[2017.08.21-06.10.24:560][  0]LogUObjectAllocator: 6112624 out of 0 bytes used by permanent object pool.
+[2017.08.21-06.10.24:560][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.21-06.10.24:582][  0]LogEngine: Initializing Engine...
+[2017.08.21-06.10.25:656][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-38AFB3DE
+[2017.08.21-06.10.25:824][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.21-06.10.25:824][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.21-06.10.25:845][  0]LogInit: XAudio2 using 'スピーカー (4- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.21-06.10.25:864][  0]LogInit: FAudioDevice initialized.
+[2017.08.21-06.10.25:875][  0]LogInit: Texture streaming: Enabled
+[2017.08.21-06.10.25:878][  0]LogConsoleManager: Warning: Setting the console variable 'r.VSync' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2017.08.21-06.10.25:881][  0]LogInit: Display: Game Engine Initialized.
+[2017.08.21-06.10.25:881][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.21-06.10.25:890][  0]LogInit: Display: Starting Game.
+[2017.08.21-06.10.25:890][  0]LogNet: Browse: /Game/Maps/start_map?Name=Player
+[2017.08.21-06.10.25:890][  0]LogLoad: LoadMap: /Game/Maps/start_map?Name=Player
+[2017.08.21-06.10.25:904][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2017.08.21-06.10.25:904][  0]LogMemory: Process Physical Memory: 432.24 MB used, 517.56 MB peak
+[2017.08.21-06.10.25:904][  0]LogMemory: Process Virtual Memory: 663.32 MB used, 723.96 MB peak
+[2017.08.21-06.10.25:904][  0]LogMemory: Physical Memory: 7026.36 MB used,  9272.32 MB free, 16298.68 MB total
+[2017.08.21-06.10.25:905][  0]LogMemory: Virtual Memory: 1257.32 MB used,  9272.32 MB free, 134217728.00 MB total
+[2017.08.21-06.10.25:905][  0]LogMemory: 
+[2017.08.21-06.10.25:905][  0]FMallocBinned2 Mem report
+[2017.08.21-06.10.25:905][  0]Small Pool
+[2017.08.21-06.10.25:905][  0]Requested Allocations: 24.446564mb  (including block size padding)
+[2017.08.21-06.10.25:905][  0]OS Allocated: 28.500000mb
+[2017.08.21-06.10.25:905][  0]Large Pool
+[2017.08.21-06.10.25:905][  0]Requested Allocations: 78.971939mb
+[2017.08.21-06.10.25:905][  0]OS Allocated: 79.562500mb
+[2017.08.21-06.10.25:905][  0]OS Page Allocator
+[2017.08.21-06.10.25:905][  0]Cached free pages: 0.000000mb
+[2017.08.21-06.10.25:943][  0]LogMaterial: Can't compile M_start with cooked content, will use default material instead
+[2017.08.21-06.10.25:943][  0]LogMaterial: Warning: Failed to compile Material /Game/Movies/M_start.M_start for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.21-06.10.25:949][  0]LogAIModule: Creating AISystem for world start_map
+[2017.08.21-06.10.25:950][  0]LogLoad: Game class is 'NewGameMode_C'
+[2017.08.21-06.10.25:952][  0]LogUMG: Display: Widget Class StartMenue_C - Loaded Fast Template.
+[2017.08.21-06.10.25:952][  0]LogWorld: Bringing World /Game/Maps/start_map.start_map up for play (max tick rate 0) at 2017.08.21-15.10.25
+[2017.08.21-06.10.25:953][  0]LogWorld: Bringing up level for play took: 0.001625
+[2017.08.21-06.10.25:953][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.21-06.10.25:994][  0]LogSlate: Took 0.034614 seconds to synchronously load lazily loaded font '../../../summer/Content/Fonts/ackaisyo.ufont' (9192K)
+[2017.08.21-06.10.25:995][  0]LogLoad: Took 0.104740 seconds to LoadMap(/Game/Maps/start_map)
+[2017.08.21-06.10.26:219][  0]LogLoad: (Engine Initialization) Total time: 3.81 seconds
+[2017.08.21-06.10.26:220][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.21-06.10.26:220][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.21-06.10.26:237][  0]LogSteamVRController: Controller role for device 3 is 2 (invalid=0, left=1, right=2).
+[2017.08.21-06.10.26:237][  0]LogSteamVRController: Warning: Controller device 3 is being assigned to its prefered role 'right'.
+[2017.08.21-06.10.26:237][  0]LogSteamVRController: Controller role for device 4 is 1 (invalid=0, left=1, right=2).
+[2017.08.21-06.10.26:237][  0]LogSteamVRController: Putting controller 4 on the left hand because there is already a controller for the right.
+[2017.08.21-06.10.26:239][  0]LogStreaming: Display: Suspending async loading (1)
+[2017.08.21-06.10.26:274][  0]LogStreaming: Display: Resuming async loading (0)
+[2017.08.21-06.10.26:279][  0]LogSlate: Took 0.001376 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoRegular.ufont' (155K)
+[2017.08.21-06.10.26:284][  1]LogStreaming: Display: Suspending async loading (1)
+[2017.08.21-06.10.26:348][  1]LogRenderer: Reallocating scene render targets to support 2688x1512 Format 10 NumSamples 4 (Frame:1).
+[2017.08.21-06.10.26:411][  1]LogStreaming: Display: Resuming async loading (0)
+[2017.08.21-06.10.26:415][  1]LogRenderer: Reallocating scene render targets to support 3024x1680 Format 10 NumSamples 4 (Frame:2).
+[2017.08.21-06.10.26:415][  1]LogStreaming: Display: Suspending async loading (1)
+[2017.08.21-06.10.26:468][  1]LogStreaming: Display: Resuming async loading (0)
+[2017.08.21-06.10.47:830][912]LogNet: Browse: /Game/Maps/Intro
+[2017.08.21-06.10.47:839][912]LogLoad: LoadMap: /Game/Maps/Intro
+[2017.08.21-06.10.47:877][912]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2017.08.21-06.10.47:877][912]LogMemory: Process Physical Memory: 360.21 MB used, 517.56 MB peak
+[2017.08.21-06.10.47:877][912]LogMemory: Process Virtual Memory: 1262.19 MB used, 1959.66 MB peak
+[2017.08.21-06.10.47:877][912]LogMemory: Physical Memory: 6909.64 MB used,  9389.04 MB free, 16298.68 MB total
+[2017.08.21-06.10.47:877][912]LogMemory: Virtual Memory: 1921.68 MB used,  9389.04 MB free, 134217728.00 MB total
+[2017.08.21-06.10.47:877][912]LogMemory: 
+[2017.08.21-06.10.47:877][912]FMallocBinned2 Mem report
+[2017.08.21-06.10.47:877][912]Small Pool
+[2017.08.21-06.10.47:877][912]Requested Allocations: 218.914551mb  (including block size padding)
+[2017.08.21-06.10.47:877][912]OS Allocated: 36.625000mb
+[2017.08.21-06.10.47:877][912]Large Pool
+[2017.08.21-06.10.47:877][912]Requested Allocations: 101.560211mb
+[2017.08.21-06.10.47:877][912]OS Allocated: 102.187500mb
+[2017.08.21-06.10.47:877][912]OS Page Allocator
+[2017.08.21-06.10.47:877][912]Cached free pages: 0.125000mb
+[2017.08.21-06.10.47:908][912]LogAIModule: Creating AISystem for world Intro
+[2017.08.21-06.10.47:909][912]LogLoad: Game class is 'NewGameMode_C'
+[2017.08.21-06.10.47:910][912]LogUMG: Display: Widget Class IntroUI_C - Loaded Fast Template.
+[2017.08.21-06.10.47:910][912]LogWorld: Bringing World /Game/Maps/Intro.Intro up for play (max tick rate 0) at 2017.08.21-15.10.47
+[2017.08.21-06.10.47:910][912]LogWorld: Bringing up level for play took: 0.000934
+[2017.08.21-06.10.47:911][912]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.21-06.10.47:913][912]LogLoad: Took 0.074615 seconds to LoadMap(/Game/Maps/Intro)
+[2017.08.21-06.10.47:914][912]LogLevel: Warning: Failed to find streaming level object associated with 'NewMap'
+[2017.08.21-06.10.47:925][914]LogSlate: Took 0.003317 seconds to synchronously load lazily loaded font '../../../summer/Content/Fonts/ackaisyo.ufont' (9192K)
+[2017.08.21-06.10.58:875][895]LogNet: Browse: /Game/Maps/NewMap
+[2017.08.21-06.10.58:886][895]LogLoad: LoadMap: /Game/Maps/NewMap
+[2017.08.21-06.10.58:908][895]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2017.08.21-06.10.58:908][895]LogMemory: Process Physical Memory: 331.28 MB used, 517.56 MB peak
+[2017.08.21-06.10.58:908][895]LogMemory: Process Virtual Memory: 1235.24 MB used, 1959.66 MB peak
+[2017.08.21-06.10.58:908][895]LogMemory: Physical Memory: 6880.45 MB used,  9418.23 MB free, 16298.68 MB total
+[2017.08.21-06.10.58:908][895]LogMemory: Virtual Memory: 1869.48 MB used,  9418.23 MB free, 134217728.00 MB total
+[2017.08.21-06.10.58:908][895]LogMemory: 
+[2017.08.21-06.10.58:908][895]FMallocBinned2 Mem report
+[2017.08.21-06.10.58:908][895]Small Pool
+[2017.08.21-06.10.58:908][895]Requested Allocations: 239.770401mb  (including block size padding)
+[2017.08.21-06.10.58:908][895]OS Allocated: 36.437500mb
+[2017.08.21-06.10.58:908][895]Large Pool
+[2017.08.21-06.10.58:908][895]Requested Allocations: 100.810211mb
+[2017.08.21-06.10.58:908][895]OS Allocated: 101.437500mb
+[2017.08.21-06.10.58:908][895]OS Page Allocator
+[2017.08.21-06.10.58:908][895]Cached free pages: 0.000000mb
+[2017.08.21-06.10.59:146][895]LogMaterial: Can't compile lambert13 with cooked content, will use default material instead
+[2017.08.21-06.10.59:146][895]LogMaterial: Warning: Failed to compile Material /Game/ikayaki/lambert13.lambert13 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.21-06.10.59:856][895]LogAIModule: Creating AISystem for world NewMap
+[2017.08.21-06.10.59:858][895]LogLoad: Game class is 'NewGameMode_C'
+[2017.08.21-06.10.59:873][895]LogWorld: Bringing World /Game/Maps/NewMap.NewMap up for play (max tick rate 0) at 2017.08.21-15.10.59
+[2017.08.21-06.10.59:875][895]LogWorld: Bringing up level for play took: 0.016091
+[2017.08.21-06.10.59:875][895]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.21-06.10.59:878][895]LogLoad: Took 0.992088 seconds to LoadMap(/Game/Maps/NewMap)
+[2017.08.21-06.11.01:424][  3]LogPlayerController: Warning: Invalid hand specified (4) for haptic feedback effect MotionControllerHaptics
+[2017.08.21-06.11.26:265][594]LogHttp: Warning: 000001D0010BC280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.08.21-06.11.26:265][594]LogHttp: Warning: 000001D0010BC280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.08.21-06.11.26:265][594]LogHttp: Warning: 000001D0010BC280: libcurl info message cache 1 (Closing connection 0)
+[2017.08.21-06.11.53:094][186]LogNet: Browse: /Game/Maps/The_End_Of_Summer
+[2017.08.21-06.11.53:105][186]LogLoad: LoadMap: /Game/Maps/The_End_Of_Summer
+[2017.08.21-06.11.53:156][186]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2017.08.21-06.11.53:156][186]LogMemory: Process Physical Memory: 421.12 MB used, 699.65 MB peak
+[2017.08.21-06.11.53:156][186]LogMemory: Process Virtual Memory: 1671.64 MB used, 1988.26 MB peak
+[2017.08.21-06.11.53:156][186]LogMemory: Physical Memory: 6977.70 MB used,  9320.98 MB free, 16298.68 MB total
+[2017.08.21-06.11.53:156][186]LogMemory: Virtual Memory: 2323.94 MB used,  9320.98 MB free, 134217728.00 MB total
+[2017.08.21-06.11.53:156][186]LogMemory: 
+[2017.08.21-06.11.53:156][186]FMallocBinned2 Mem report
+[2017.08.21-06.11.53:156][186]Small Pool
+[2017.08.21-06.11.53:156][186]Requested Allocations: 359.725662mb  (including block size padding)
+[2017.08.21-06.11.53:156][186]OS Allocated: 58.500000mb
+[2017.08.21-06.11.53:156][186]Large Pool
+[2017.08.21-06.11.53:156][186]Requested Allocations: 96.902832mb
+[2017.08.21-06.11.53:156][186]OS Allocated: 97.562500mb
+[2017.08.21-06.11.53:156][186]OS Page Allocator
+[2017.08.21-06.11.53:156][186]Cached free pages: 4.000000mb
+[2017.08.21-06.11.53:191][186]LogAIModule: Creating AISystem for world The_End_Of_Summer
+[2017.08.21-06.11.53:192][186]LogLoad: Game class is 'NewGameMode_C'
+[2017.08.21-06.11.53:193][186]LogUMG: Display: Widget Class Last_C - Loaded Fast Template.
+[2017.08.21-06.11.53:193][186]LogWorld: Bringing World /Game/Maps/The_End_Of_Summer.The_End_Of_Summer up for play (max tick rate 0) at 2017.08.21-15.11.53
+[2017.08.21-06.11.53:193][186]LogWorld: Bringing up level for play took: 0.000638
+[2017.08.21-06.11.53:194][186]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.21-06.11.53:196][186]LogLoad: Took 0.090915 seconds to LoadMap(/Game/Maps/The_End_Of_Summer)
+[2017.08.21-06.11.57:465][569]LogSlate: Took 0.004669 seconds to synchronously load lazily loaded font '../../../summer/Content/Fonts/ackaisyo.ufont' (9192K)
+[2017.08.21-06.12.07:122][434]Closing by request
+[2017.08.21-06.12.07:122][434]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.08.21-06.12.07:702][435]LogStreaming: Display: Suspending async loading (1)
+[2017.08.21-06.12.07:705][435]LogStreaming: Display: Resuming async loading (0)
+[2017.08.21-06.12.07:708][435]LogSlate: Request Window 'summer (64-bit, PCD3D_SM5)' being destroyed
+[2017.08.21-06.12.07:708][435]LogStreaming: Display: Suspending async loading (1)
+[2017.08.21-06.12.07:764][435]LogStreaming: Display: Resuming async loading (0)
+[2017.08.21-06.12.07:764][435]LogSlate: Window 'summer (64-bit, PCD3D_SM5)' being destroyed
+[2017.08.21-06.12.07:767][435]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Google 日本語入力).
+[2017.08.21-06.12.07:792][435]LogExit: Preparing to exit.
+[2017.08.21-06.12.07:792][435]LogMoviePlayer: Shutting down movie player
+[2017.08.21-06.12.07:851][435]LogExit: Game engine shut down
+[2017.08.21-06.12.07:874][435]LogExit: Object subsystem successfully closed.
+[2017.08.21-06.12.07:878][435]LogD3D11RHI: Shutdown
+[2017.08.21-06.12.07:878][435]LogD3D11RHI: CleanupD3DDevice
+[2017.08.21-06.12.07:881][435]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.21-06.12.07:881][435]LogModuleManager: Shutting down and abandoning module AutomationController (158)
+[2017.08.21-06.12.07:881][435]LogModuleManager: Shutting down and abandoning module AutomationWorker (156)
+[2017.08.21-06.12.07:881][435]LogModuleManager: Shutting down and abandoning module AIModule (154)
+[2017.08.21-06.12.07:881][435]LogModuleManager: Shutting down and abandoning module GameplayDebugger (153)
+[2017.08.21-06.12.07:881][435]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (150)
+[2017.08.21-06.12.07:881][435]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (148)
+[2017.08.21-06.12.07:881][435]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (146)
+[2017.08.21-06.12.07:881][435]LogModuleManager: Shutting down and abandoning module Media (145)
+[2017.08.21-06.12.07:881][435]LogModuleManager: Shutting down and abandoning module CharacterAI (142)
+[2017.08.21-06.12.07:881][435]LogModuleManager: Shutting down and abandoning module SessionServices (140)
+[2017.08.21-06.12.07:881][435]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (138)
+[2017.08.21-06.12.07:881][435]LogModuleManager: Shutting down and abandoning module MovieScene (136)
+[2017.08.21-06.12.07:881][435]LogModuleManager: Shutting down and abandoning module GeometryCache (134)
+[2017.08.21-06.12.07:881][435]LogModuleManager: Shutting down and abandoning module Niagara (132)
+[2017.08.21-06.12.07:881][435]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2017.08.21-06.12.07:881][435]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2017.08.21-06.12.07:881][435]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2017.08.21-06.12.07:960][435]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2017.08.21-06.12.07:960][435]LogModuleManager: Shutting down and abandoning module HTML5Networking (120)
+[2017.08.21-06.12.07:960][435]LogModuleManager: Shutting down and abandoning module SteamVRController (118)
+[2017.08.21-06.12.07:960][435]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (116)
+[2017.08.21-06.12.07:960][435]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (114)
+[2017.08.21-06.12.07:960][435]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (112)
+[2017.08.21-06.12.07:960][435]LogModuleManager: Shutting down and abandoning module CableComponent (110)
+[2017.08.21-06.12.07:960][435]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (108)
+[2017.08.21-06.12.07:960][435]LogModuleManager: Shutting down and abandoning module AndroidPermission (106)
+[2017.08.21-06.12.07:960][435]LogModuleManager: Shutting down and abandoning module OculusInput (104)
+[2017.08.21-06.12.07:960][435]LogModuleManager: Shutting down and abandoning module UdpMessaging (102)
+[2017.08.21-06.12.07:960][435]LogModuleManager: Shutting down and abandoning module TcpMessaging (100)
+[2017.08.21-06.12.07:960][435]LogModuleManager: Shutting down and abandoning module FacialAnimation (98)
+[2017.08.21-06.12.07:960][435]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (96)
+[2017.08.21-06.12.07:960][435]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (94)
+[2017.08.21-06.12.07:960][435]LogModuleManager: Shutting down and abandoning module PhysXVehicles (92)
+[2017.08.21-06.12.07:961][435]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (90)
+[2017.08.21-06.12.07:961][435]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (88)
+[2017.08.21-06.12.07:961][435]LogModuleManager: Shutting down and abandoning module Paper2D (86)
+[2017.08.21-06.12.07:961][435]LogModuleManager: Shutting down and abandoning module WmfMedia (84)
+[2017.08.21-06.12.07:961][435]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module PacketHandler (80)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (78)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module Overlay (76)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module MediaAssets (74)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module SlateReflector (70)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module MRMesh (66)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module Messaging (64)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (62)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module XAudio2 (60)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module Networking (58)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module Core (54)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module LevelSequence (52)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module InputCore (46)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module PhysXCooking (44)
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (40)
+[2017.08.21-06.12.07:963][435]LogOnline: Display: Unloading online subsystem: NULL
+[2017.08.21-06.12.07:963][435]LogModuleManager: Shutting down and abandoning module HTTP (39)
+[2017.08.21-06.12.07:963][435]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.21-06.12.07:963][435]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD01E52A0-4F84-E94E-94E4-5E84FE152456%7D&AppID=UEGame.Rocket.Release%7C00000000000000000000000000000000%7CUE4Game&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=ANON-%7B49BBD72B-4DE0-D389-F0AD-D3972607EA0D%7D%7C%7C&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.21-06.12.07:963][435]LogHttp: Warning: 000001D000DC3700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.08.21-06.12.07:963][435]LogHttp: Warning: 000001D000DC3700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.08.21-06.12.07:963][435]LogHttp: Warning: 000001D000DC3700: libcurl info message cache 1 (Closing connection 1)
+[2017.08.21-06.12.07:989][435]LogModuleManager: Shutting down and abandoning module SSL (38)
+[2017.08.21-06.12.07:989][435]LogModuleManager: Shutting down and abandoning module SteamVR (34)
+[2017.08.21-06.12.07:989][435]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2017.08.21-06.12.07:989][435]LogModuleManager: Shutting down and abandoning module OculusHMD (30)
+[2017.08.21-06.12.07:989][435]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.08.21-06.12.07:989][435]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.08.21-06.12.07:989][435]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.08.21-06.12.07:990][435]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.08.21-06.12.07:990][435]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.08.21-06.12.07:990][435]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.08.21-06.12.07:990][435]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.08.21-06.12.07:990][435]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.08.21-06.12.07:990][435]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.08.21-06.12.07:990][435]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.08.21-06.12.07:990][435]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.08.21-06.12.07:990][435]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.21-06.12.07:990][435]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.21-06.12.07:990][435]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.21-06.12.07:994][435]LogExit: Exiting.
+[2017.08.21-06.12.07:994][435]Log file closed, 08/21/17 15:12:07
